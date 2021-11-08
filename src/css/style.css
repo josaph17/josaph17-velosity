@@ -1,0 +1,137 @@
+html {
+    font-size:18px;
+    color: #fff;
+}
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1rem;
+    line-height: 1.35;
+    background: linear-gradient(to right, #B1B1B1, #737373);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+  margin: 0;
+  padding:0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/*Page=======================================================================*/
+.page{
+    width: 100%;
+    height: 100vh;
+}
+
+/*Header=======================================================================*/
+.header{
+    position: relative;
+    background-color: #E89B65;
+    width: 1160px;
+    height: 180px;
+    margin: 0 auto;
+    top: 2.75rem;
+}
+
+.header-top{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+    font-weight: 400;
+
+    position: relative;
+    align-items: center;
+    font-size:1.24rem;
+
+}
+
+.header-compbask {
+    display: flex;
+}
+.header-login-item{
+    list-style: none;
+}
+
+.header-top-item{
+    list-style: none;
+    margin-left: 2.22rem;
+}
+
+.header-down {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 1.17rem;
+    list-style: none;
+    font-weight: 700;
+    font-size:1.24rem;
+
+}
+
+.catalog-item {
+    list-style: none;
+    font-size:1.24rem;
+    font-weight: 700;
+}
+.search-item{
+    list-style: none;
+    font-size:1.24rem;
+    font-weight: 400;
+    opacity: .5;
+}
+.nav-link {
+    
+    text-decoration: none;
+}
+
+.header-icon {
+    margin-right: 10px;
+}
+
+.header-login>li>a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.header-compbask>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+.catalog>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #fff; 
+}
