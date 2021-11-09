@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -16,38 +17,41 @@
         <header class="header">
             <div class="container">
                 <div class="header-top">
-                    <div class="header-logo">
-                        <img src="/src/img/logo.png" width="242" height="83" alt="Лого">
-                    </div>
-                    <ul class="header-login">
-                        <li class="header-login-item"><img class="header-icon" src="/src/img/login.svg" alt=""><a
-                                href="#">Войти</a>
-                        </li>
-                    </ul>
-                    <ul class="header-compbask">
-                        <li class="header-top-item"><img class="header-icon" src="/src/img/compare.svg" alt=""><a
-                                href="#">Сравнить</a>
-                        </li>
-                        <li class="header-top-item"><img class="header-icon" src="/src/img/basket.svg" alt=""><a
-                                href="#">Корзина</a>
-                        </li>
+                    <a href="index.html" class="logo"><img src="/src/img/logo.png" width="242" height="83"
+                            alt="Логотип"></a>
+                    <ul class="header-menu-top">
+                        <li><a href="https://www.google.ru/"><img src="/src/img/login.svg" alt="">
+                                <p>Войти</p>
+                            </a></li>
+                        <li><a href="https://www.google.ru/"><img src="/src/img/compare.svg" alt="">
+                                <p>Сравнить</p>
+                            </a></li>
+                        <li><a href="https://www.google.ru/"><img src="/src/img/basket.svg" alt="">
+                                <p>Корзина</p>
+                            </a></li>
                     </ul>
                 </div>
                 <div class="header-down">
-                    <ul class="catalog">
-                        <li class="catalog-item"><a href="#">Каталог</a></li>
-                    </ul>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#">Доставка</a></li>
-                        <li class="nav-item"><a href="#">Гарантия</a></li>
-                        <li class="nav-item"><a href="#">Контакты</a></li>
-                    </ul>
-                    <ul class="search">
-                        <li class="search-item"><img class="header-icon" src="/src/img/loupe.svg" alt="">Поиск по сайту
+                    <ul class="header-menu-down">
+                        <li><a href="#">Каталог</a>
+                            <ul>
+                                <li><a href="#">Велосипеды</a></li>
+                                <li><a href="#">Аксессуары</a></li>
+                                <li><a href="#">Самокаты</a></li>
+                                <li><a href="#">Запчасти</a></li>
+                                <li><a href="#">Услуги</a></li>
+                            </ul>
                         </li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <div class="search-box">
+                            <a href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i>
+                            </a><input class="search-txt" type="text" name="" placeholder="Поиск по сайту">
+                        </div>
                     </ul>
-
                 </div>
+
             </div>
         </header>
         <main>
