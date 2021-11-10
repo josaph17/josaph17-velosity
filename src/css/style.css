@@ -49,12 +49,12 @@ ol[class] {
     background-color: #E89B65;
     width: 1160px;
     height: 180px;
-    margin: 2.75rem auto;
+    margin: 50px auto;
     /* max-width: 85%; */
 }
 /*Header-top=======================================================================*/
 
-header .header-top{
+.header-top{
     width: 1080px;
     height: 90px;
     margin: 0 auto;
@@ -66,17 +66,17 @@ header .header-top{
     font-size:1.24rem;
 }
 
-header .header-menu-top li {
+.header-menu-top li {
     display: inline-block;
     opacity: 1;
     transition: opacity .2s ease;
 }
 
-header .header-menu-top li:hover {
+.header-menu-top li:hover {
     opacity: 0.5;
 }
 
-header .header-menu-top li a {
+.header-menu-top li a {
     display: flex;
     text-decoration: none;
     color: #fff;
@@ -88,16 +88,16 @@ header .header-menu-top li a {
     transition: opacity .2s ease;
 }
 
-header .header-menu-top li:last-child a{
+.header-menu-top li:last-child a{
     margin-right: 0px;
 }
 
-header .header-menu-top li p {
+.header-menu-top li p {
     margin-left: 10px;
 }
 
 
-.logo {
+.header__logo {
     position: relative;
     top: 5px;
 }
@@ -227,4 +227,35 @@ header .header-menu-top li p {
 }
 .search-box:hover .search-btn {
     background-color: #E89B65;
+}
+/*slider=======================================================================*/
+.slider {
+    height: 696px;
+}
+/*nav=======================================================================*/
+.nav{
+    height: 411px;
+}
+/*tabs=======================================================================*/
+.tabs {
+    height: 431px;
+    background-color: #737373;
+}
+/*partners=======================================================================*/
+.partners {
+    height: 308px;
+}
+.partners-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+/*info=======================================================================*/
+.info {
+    height: 630px;
+}
+/*footer=======================================================================*/
+.footer{
+    height: 380px;
 }
