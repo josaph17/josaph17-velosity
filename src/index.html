@@ -4,12 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Velosity</title>
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,16 +12,15 @@
         <header class="header">
             <div class="container">
                 <div class="header-top">
-                    <a href="index.html" class="header__logo"><img src="/src/img/logo.png" width="242" height="83"
-                            alt="Логотип"></a>
+                    <a href="#" class="logo"><img src="/src/img/logo.png" width="242" height="83" alt="Логотип"></a>
                     <ul class="header-menu-top">
-                        <li><a href="https://www.google.ru/"><img src="/src/img/login.svg" alt="">
+                        <li><a href="#"><img src="/src/img/login.svg" alt="">
                                 <p>Войти</p>
                             </a></li>
-                        <li><a href="https://www.google.ru/"><img src="/src/img/compare.svg" alt="">
+                        <li><a href="#/"><img src="/src/img/compare.svg" alt="">
                                 <p>Сравнить</p>
                             </a></li>
-                        <li><a href="https://www.google.ru/"><img src="/src/img/basket.svg" alt="">
+                        <li><a href="#"><img src="/src/img/basket.svg" alt="">
                                 <p>Корзина</p>
                             </a></li>
                     </ul>
@@ -45,10 +39,13 @@
                         <li><a href="#">Доставка</a></li>
                         <li><a href="#">Гарантия</a></li>
                         <li><a href="#">Контакты</a></li>
-                        <div class="search-box">
-                            <a href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i>
-                            </a><input class="search-txt" type="text" name="" placeholder="Поиск по сайту">
-                        </div>
+                        <form role="search">
+                            <div>
+                                <input type="search" id="mySearch" name="q" placeholder="Search the site..."
+                                    aria-label="Search through site content">
+                                <button>Search</button>
+                            </div>
+                        </form>
                     </ul>
                 </div>
 
@@ -56,18 +53,49 @@
         </header>
         <main>
             <div class="container">
-                <section class="slider">Слайдер</section>
-                <section class="nav">
-                    <ul>
+                <section class="slider">
+                    <div>
+                        Scott 1411
+                    </div>
+                    <div>
+                        <img src="img/bigvelo1.png" alt="Велосипед" width="660" height="599">
+                    </div>
+                </section>
+                <section claass="categories">
+                    <ul class="categories-list">
                         <li>
                             <div>
-                                <img src="" alt="Велосипед" width="205" height="130">
+                                <img src="img/nav1.png" alt="Велосипед" width="205" height="130">
                                 <a href="#">Велосипеды</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="img/nav2.png" alt="Самокаты" width="177" height="130">
+                                <a href="#">Самокаты</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="img/nav3.png" alt="Аксессуары" width="195" height="130">
+                                <a href="#">Аксессуары</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="img/nav4.png" alt="Запчасти" width="169" height="130">
+                                <a href="#">Запчасти</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="img/nav5.png" alt="Услуги" width="138" height="130">
+                                <a href="#">Услуги</a>
                             </div>
                         </li>
                     </ul>
                 </section>
-                <section class="tabs">Табы</section>
+                <section class="section-tabs">Табы</section>
                 <section class="partners">
                     <ul class="partners-list">
                         <li><img src="img/firm1.png" alt="" width="159.87" height="68"></li>
@@ -83,8 +111,47 @@
         </main>
         <footer class="footer">
             <div class="container">
-                FOOTER
-            </div>
+                <div class="footer-top">
+                    <a href="#" class="logo"><img src="/src/img/logo.png" width="242" height="83" alt="Логотип"></a>
+                    <ul class="header-menu-top">
+                        <div>
+                            <li><a href="#"><img src="/src/img/login.svg" alt="">
+                                    <p>Войти</p>
+                                </a></li>
+                            <li><a href="#/"><img src="/src/img/compare.svg" alt="">
+                                    <p>Сравнить</p>
+                                </a></li>
+                            <li><a href="#"><img src="/src/img/basket.svg" alt="">
+                                    <p>Корзина</p>
+                                </a></li>
+                        </div>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-center__addres">
+                        г.Москва, ул. Кировоградская, д.22г
+                    </div>
+                    <ul class="navigs">
+                        <li class="navigs__item"><a href="#">Доставка</a></li>
+                        <li class="navigs__item"><a href="#">Гарантия</a></li>
+                        <li class="navigs__item"><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="footer-center__phone">
+                        +7(495)374-65-81
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <div class="footer-down__work-time">
+                        Ежедневно c 9:00 до 21:00
+                    </div>
+                    <div class="socials">
+                        <ul>
+                            <li>twiter</li>
+                            <li>youtube</li>
+                            <li>facebook</li>
+                            <li>vk</li>
+                        </ul>
+                    </div>
+                </div>
         </footer>
     </div>
 

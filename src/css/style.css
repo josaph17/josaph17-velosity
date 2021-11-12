@@ -97,7 +97,7 @@ ol[class] {
 }
 
 
-.header__logo {
+.logo {
     position: relative;
     top: 5px;
 }
@@ -232,24 +232,31 @@ ol[class] {
 .slider {
     height: 696px;
 }
-/*nav=======================================================================*/
-.nav{
-    height: 411px;
-}
-/*tabs=======================================================================*/
-.tabs {
+/*=======================================================================*/
+
+/*section-tabs=======================================================================*/
+.section-tabs {
     height: 431px;
     background-color: #737373;
 }
 /*partners=======================================================================*/
 .partners {
-    height: 308px;
+    height: 68px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
 }
 .partners-list {
     display: flex;
-    list-style: none;
     justify-content: space-between;
-    
+    align-items: center;
+    list-style: none;
+    opacity: .4;
+    transition: opacity .2s ease;
+}
+
+.partners-list:hover {
+    opacity: 1;
 }
 /*info=======================================================================*/
 .info {
@@ -258,4 +265,15 @@ ol[class] {
 /*footer=======================================================================*/
 .footer{
     height: 380px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.navigs{
+    display: flex;
+
+}
+.navigs__item{
+    list-style: none;
 }
